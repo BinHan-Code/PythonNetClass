@@ -1,0 +1,14 @@
+--- JUNOS 12.1X46-D35.1 built 2015-05-14 23:19:08 UTC
+pyclass@srx2> 
+
+pyclass@srx2> 
+
+pyclass@srx2> set cli screen-length 0 
+Screen length set to 0
+
+pyclass@srx2> set cli screen-width 511 
+Screen width set to 511
+
+pyclass@srx2> 
+
+pyclass@srx2> 
