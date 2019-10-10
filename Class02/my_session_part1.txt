@@ -1,0 +1,10 @@
+
+
+
+cisco3#
+cisco3#terminal length 0
+cisco3#terminal width 511
+cisco3#
+cisco3#delete flash:/cisco3-cfg-Oct--5-17-54-26.295-2
+Delete filename [cisco3-cfg-Oct--5-17-54-26.295-2]? y
+Delete bootflash:y? [confirm]
