@@ -1,0 +1,9 @@
+Value VALID_BEST ([*>]+)
+
+Start
+  ^\s+Network.*Path\s*$$ -> ShowIPBgp 
+
+ShowIPBgp
+  ^ ${VALID_BEST}\s+ -> Record
+
+EOF

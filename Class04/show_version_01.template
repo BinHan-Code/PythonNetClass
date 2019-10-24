@@ -1,0 +1,4 @@
+Value CONFIG_REGISTER (0x\d+)
+
+Start
+  ^Configuration register is ${CONFIG_REGISTER} -> Record

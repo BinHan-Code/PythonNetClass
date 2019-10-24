@@ -1,0 +1,8 @@
+Value SERIAL_NUMBER (\S+)
+Value CONFIG_REGISTER (0x\d+)
+
+Start
+  ^Processor board ID ${SERIAL_NUMBER}
+  ^Configuration register is ${CONFIG_REGISTER} -> Record
+
+EOF
